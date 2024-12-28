@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+US+Modern+Guides&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #050A30;
+    gap: 25px;
+    align-items: center;
+}
+
+.profile-container img {
+    width: 364px;
+    height: auto;
+    align-self: flex-start;
+
+}
+
+.profile-container .heading {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.profile-container .heading h1 {
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7EC8E3;
+    font-size: 4em;
+    margin: 0;
+}
+
+.profile-container .heading .underline {
+    height: 2px;
+    width: 35%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container .heading h2 {
+    color: white;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.profile-container .about-me {
+    width: 80%;
+    padding: 10px;
+
+}
+
+.profile-container .about-me h3 {
+    color: #bde1ed;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.profile-container .about-me p {
+    color: #bde1ed;
+
+}
+
+
+.projects-container {
+    width: 80%;
+    padding: 10px;
+
+}
+
+.projects-container h3 {
+    color: #bde1ed;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.projects-container ul {
+    display: flex;
+    gap: 36px;
+    padding: 10px;
+
+}
+
+.projects-container li {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: #bde1ed;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    transition: ease-in-out .25s;
+
+}
+
+
+.projects-container img {
+    height: 120px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.projects-container li:hover {
+   transform: scale(1.25);
+}
