@@ -5,10 +5,10 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     padding: 10px;
-    background: rgb(5,10,48);
-    background: linear-gradient(180deg, rgba(5,10,48,1) 0%, rgba(9,9,121,1) 58%, rgba(0,212,255,1) 100%);
+    background: rgb(5,10,48); 
+
 }
 
 .projects-container h3 {
@@ -22,9 +22,8 @@
 
 .projects-container .projects-box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    border-radius: 10px;
+  }
 
 .projects-container ul {
     
@@ -33,9 +32,7 @@
     padding: 20px;
     justify-content: space-between;
     max-width: 75%;
-    overflow: auto; /* Hide overflow for smooth scrolling */
-    white-space: nowrap; /* Prevent wrapping of items */
-    scroll-behavior: smooth; /* Enable smooth scrolling */
+
 }
 
 .projects-container li {
@@ -44,11 +41,12 @@
     flex-direction: column;
     align-items: center;
     color: #bde1ed;
-    font-family: "Ysabeau SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
+    font-family: "Lato", serif;
+    font-weight: 400;
     font-style: normal;
     transition: ease-in-out .25s;
+    text-align: center;
+
 }
 
 .projects-container li p a {
@@ -66,30 +64,3 @@
 .projects-container li:hover {
    transform: scale(1.25);
 }
-  .scroll-btn img {
-    height: 36px;
-    width: auto;
-  }
-  
-  .scroll-btn.left {
-    left: 10px;
-  }
-  
-  .scroll-btn.right {
-    right: 10px;
-  }
-
-  .scroll-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 18px;
-    z-index: 10;
-  }
-  

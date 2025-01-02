@@ -1,0 +1,48 @@
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    background-color: #050A30;
+    color: white;
+    padding-top: 50px;
+}
+
+.contact-details ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+    border: red 1px solid;
+    border-radius: 5px;
+}
+
+.contact-details ul h3 {
+    line-height: 40px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+
+}
+
+.contact-details li {
+    line-height: 40px;
+    list-style-type: none;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+
+}
+
+.underline {
+    height: 2px;
+    width: 35%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
