@@ -10,7 +10,7 @@ function Header() {
 
       <div className='menu-dropdown'>
         <a href='#projects'>Projects</a>
-        <a href='/'>TBD</a>
+        <a href='#contact'>Contact</a>
         <a href='/'>TBD</a>
         </div>
       </div>

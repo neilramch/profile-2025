@@ -7,7 +7,7 @@ function Profile() {
         <div className='profile-container'>
             <img src='/ai-headshot2.png'/>
             <div className='heading'>
-                <h1>Hi, I'm Neil</h1>
+                <h1>Hi, I'm <span>Neil</span></h1>
                 <div className='underline'></div>
                 <h2>M.B.A Student</h2>
             </div>
@@ -22,7 +22,7 @@ function Profile() {
                 <ul>
                     <li>Graduated magna cum laude</li>
                     <li>Certified Microsoft Technology Associate</li>
-                    <li>Recognized as <a href='https://www.ccsu.edu/mis/notable-alumni'>notable alumni at CCSU</a></li>
+                    <li>Recognized as <a href='https://www.ccsu.edu/mis/notable-alumni' target="_blank">notable alumni at CCSU</a></li>
                     <li>Graduated magna cum laude</li>
                 </ul>
             </div>

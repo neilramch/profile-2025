@@ -30,13 +30,25 @@
 }
 
 .contact-details li {
+    display: flex;
     line-height: 40px;
     list-style-type: none;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1em;
+}
 
+.contact-details li img {
+    height: 25px;
+    width: auto;
+}
+
+.contact-details li a {
+    display: flex;
+    gap: 10px;
+    place-items: center;
+    color: white;
 }
 
 .underline {

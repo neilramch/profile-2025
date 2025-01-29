@@ -8,7 +8,6 @@
     height: 100%;
     padding: 10px;
     background: rgb(5,10,48); 
-
 }
 
 .projects-container h3 {
@@ -23,6 +22,8 @@
 .projects-container .projects-box {
     display: flex;
     border-radius: 10px;
+    margin-top: 50px;
+
   }
 
 .projects-container ul {
@@ -31,8 +32,6 @@
     gap: 36px;
     padding: 20px;
     justify-content: space-between;
-    max-width: 75%;
-
 }
 
 .projects-container li {
@@ -56,11 +55,28 @@
 
 
 .projects-container img {
-    height: 120px;
-    width: 120px;
+    height: 360px;
+    width: 360px;
     border-radius: 5px;
 }
 
 .projects-container li:hover {
    transform: scale(1.25);
+}
+
+@media (max-width: 768px) {
+
+    .projects-box ul {
+        flex-direction: column;
+        place-items: center;
+        gap: 60px;
+    }
+
+    .projects-container {
+        place-items: center;
+    }
+
+    .projects-container .projects-box {
+        place-items: center;
+    }
 }

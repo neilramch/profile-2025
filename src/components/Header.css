@@ -12,11 +12,14 @@
 }
 
 .hamburger-menu .menu-dropdown {
+    position: absolute;
     display: none;
     height: 120px;
     width: 120px;
     background-color: #7EC8E3;
     border-radius: 5px;
+    right: 20px;
+    top: 100%;
 }
 
 .hamburger-menu .menu-dropdown a {

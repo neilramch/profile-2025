@@ -4,9 +4,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  background-color: #050A30;
 
 }
 
@@ -18,7 +15,6 @@ body {
   min-height: 100%;
   width: 100%;
   overflow-x: hidden; /* Prevent horizontal scroll issues */
-  background-color: #333;
 }
 
 /* Section styles */
