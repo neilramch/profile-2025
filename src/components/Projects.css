@@ -23,7 +23,6 @@
     display: flex;
     border-radius: 10px;
     margin-top: 50px;
-
   }
 
 .projects-container ul {
@@ -50,7 +49,18 @@
 
 .projects-container li p a {
     color: #7EC8E3;
-    font-size: .6em;
+    font-size: 1em;
+}
+
+.projects-container li p {
+    position: absolute;
+    display: none;
+    top: 50%;
+    max-width: 320px;
+    gap: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    line-height: 25px;
 }
 
 
@@ -58,10 +68,16 @@
     height: 360px;
     width: 360px;
     border-radius: 5px;
+    transition: ease-in-out .25s;
 }
 
-.projects-container li:hover {
-   transform: scale(1.25);
+.projects-container li:hover img {
+    opacity: 20%;
+}
+
+.projects-container li:hover p {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
